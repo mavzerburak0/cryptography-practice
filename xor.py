@@ -6,7 +6,7 @@ message = input("Type in a message to encrypt: ")
 
 # Binary representation of every letter in the message as a python list
 message = [bin(ord(c)) for c in message]
-#print(message)
+print(message)
 
 # Key can be randomized however for the sake of simplicity, it is hard-coded
 key = '0b1001011'
